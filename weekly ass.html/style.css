@@ -1,0 +1,20 @@
+/**CSS styling of the body**/
+body{
+    background-color: teal;
+    margin: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 5%;
+    border-color:darkgray;
+    border-width: 2cm;
+    height: 12cm;
+/**CSS styling of the class**/
+}
+.invitation{
+    color: rgb(0, 0, 0);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+/**CSS styling of the fieldset**/
+}
+fieldset{
+    background-color: azure;
+
+}
