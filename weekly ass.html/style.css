@@ -1,20 +1,32 @@
 /**CSS styling of the body**/
 body{
     background-color: teal;
-    margin: 50px;
+    background-image: url(/image.jpg/Bcolor.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 10px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 5%;
+    padding: 350px;
     border-color:darkgray;
     border-width: 2cm;
-    height: 12cm;
+    
+    }
 /**CSS styling of the class**/
-}
+
 .invitation{
     color: rgb(0, 0, 0);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-/**CSS styling of the fieldset**/
 }
-fieldset{
-    background-color: azure;
 
-}
+.divsection1{
+        color: aliceblue;
+        padding: 1%;}
+        
+/**CSS styling of the fieldset**/
+
+fieldset{
+    background-color: lightblue;
+    height: 7.8cm;
+    
+  }
+
