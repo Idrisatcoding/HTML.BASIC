@@ -1,90 +1,50 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Learning space</title>
-        <link rel="stylesheet" href="style.css/style.css">
-    </head>
-    <body>
-        <!-- This is header section 1-->
-            <h1 class="header">Practicals of HTML</h1>
-             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus autem earum, neque assumenda corrupti pariatur <br>doloremque fugit? Tempore consectetur, quam maxime magni deserunt dolorem vero? Porro nam distinctio nulla officia.</p>
-             <!--this is header setion 2-->
-            <h2>The Elements of HTML</h2>
-            <p> This is a paragraph aspect including other Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, odit fugit tenetur maxime fugiat commodi at perspiciatis pariatur porro officiis eveniet, itaque quas.<br> Consequuntur asperiores quam eum doloribus modi consequatur.</p>
-            <!-- this is header section 3-->
-            <h3>Attributes in HTML</h3>
-            <img src= "image.jpg/pexels-kate-trifo-4057059 (1).jpg" alt="this is a working space" height="700" width="700">
-            <p><a href="https:www.logomakr.com">click this to go to logomakr</a></p>
-            <!-- This is header section 4-->
-            <h4>This is header four (4)</h4>
-            <ol>
-                <li>Communication</li>
-                <li>Artificial</li>
-            </ol>
-            <ul>
-                <li>Activate</li>
-                <li>Account</li>
-            </ul>
-            <h5>This is another header size</h5>
-            <div>
-                <table>
-                    <tr>
-                        <th>Name</th>
-                        <th>Age</th>
-                    </tr>
-                    <tr>
-                        <th>Idris</th>
-                        <th>23</th>
-                    </tr>
-                    <tr>
-                        <th>Ope</th>
-                        <th>15</th>
-                    </tr>  
-                </table>
+        <title>weekly assessment</title>
+        <link rel="stylesheet" href="style.css">
+        <body>
+        <div>
+            <h1 class="divsection1">Fill up the registration form below:</h1>
             </div>
-            <h1>Fill in your biodata</h1>
             <form method="*">
                 <fieldset>
-                    <legend>Biodata</legend>
-                    <label for="fullname">Fullname</label>
-                    <input type="text" name="fullname" id="fullname">
-                    <label for="email">Email</label>
-                    <input type="email" name="email" id="email">
-                    <label for="dob">Date of Birth</label>
-                    <input type="date" name="dob" id="dob">
-                    <label for="male">Male</label>
-                    <input type="radio" name="sex" id="male" value="male">
-                    <label for="female">Female</label>
-                    <input type="radio" name="sex" id="female" value="female">
-                    <select id="state">
-                        <option value="ogun">Ogun</option>
-                        <option value="abia">Abia</option>
-                        <option value="lagos">Lagos</option>                    
-                     </select>
-                     <input type="button" value="submit" 
-                    </fieldset>
-            </form>
-        <header>
-            <h1>This is my header</h1>
-            <nav>
-                <ul>
-                    <li><a href="About us.html" target="_blank">About us</a></li>
-                    <li><a href="Contact us.html">Contact us</a></li>
-                </ul>
-            </nav>
-        </header>
-<main>
-    <section id="introduction" style="background-color: blueviolet; padding: 12px; color:azure">
-        <h1>This is my introduction</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit delectus veniam, alias magnam rem quia cumque. <br>Earum animi modi libero unde, corrupti aliquid? Non nobis libero architecto officiis, ab dicta.</p>
-        <section id="post" style="background-color: burlywood; padding: 12px; color:azure">
-           <article>
-            <h1>This is my first article</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit delectus veniam, alias magnam rem quia cumque. <br>Earum animi modi libero unde, corrupti aliquid? Non nobis libero architecto officiis, ab dicta.</p>
-           </article>
-    </section>
-</main>
-<footer>copyright &copy; 2023</footer>
-    </body> 
-</html>
+                   <h2>
+                    <legend class="invitation"><b>Biodata</b></legend>
+                    </h2>
+                    <div>
+                        <strong>
+                    <label for="fullname" class="invitation">Fullname:</label>
+                    <input type="fullname" name="fullname" id="fullname" placeholder="Enter your fullname" required>
+                    <p>
+                    <label for="email" class="invitation">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Example12@gmail.com" required>
+                    </p>
+                    <p>
+                    <label for="phone" class="invitation">Phone number:</label>
+                    <input type="tel" name="Phone" id="phone" placeholder="+234***"required>
+                    </p>
+                    <h4 class="invitation">Gender:</h4>
+                    <label for="male" class="invitation">Male</label>
+                    <input type="radio" name="sex" id="male" value="male"required>
+                    <label for="female" class="invitation">Female</label>
+                    <input type="radio" name="sex" id="female" value="female"required>
+                    <p>
+                        <label for="password" class="invitation">Password:</label>
+                        <input type="password" name="password" id="password" placeholder="Input your password" required>
+                        </p>
 
+
+                    <p>
+                    <input type="submit" value="Submit" id="button" onclick="alert('submitted succesfully!')">
+                    </p>
+                        </strong>
+                  
+                    </div>
+                </fieldset>
+
+            </form>
+
+        </body>
+    </head>
+</html>
